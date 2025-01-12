@@ -6,7 +6,10 @@
     <title th:text="${title}">Detalles</title>
 </head>
 <body>
-    <h1 th:text="${name}"></h1>
-    <h2 th:text="${lastName}"></h2>
+    <h1 th:text="${user.name}"></h1>
+    <h2 th:text="${user.lastname}"></h2>
+    <ul>
+        <li th:text="${user.direction}"></li>
+    </ul>
 </body>
 </html>
